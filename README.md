@@ -1,125 +1,74 @@
-# AI Migration Assistant
+# Enterprise AI Agents
 
-AI-powered migration assistant designed to accelerate database and application modernization initiatives.
+Enterprise AI Agents is a collection of AI-powered engineering agents designed to accelerate software development, cloud modernization, database migration, and DevOps workflows.
 
-## Overview
+Inspired by real-world enterprise engineering challenges, this repository demonstrates how Generative AI and Agentic AI systems can be leveraged to automate repetitive development tasks, improve engineering productivity, and support cloud-native application modernization initiatives.
 
-This project demonstrates how Generative AI can be leveraged to assist in migration activities involving:
+## Key Objectives
 
-- MySQL to PostgreSQL conversion
-- SQL compatibility analysis
-- Migration recommendations
-- Automated operations generation
-- Application modernization workflows
+* Automate database migration and modernization activities
+* Generate and validate cloud-native application components
+* Accelerate AWS Lambda and serverless development workflows
+* Assist in ETL and data engineering tasks
+* Support DevOps automation and deployment validation
+* Demonstrate practical applications of Generative AI in software engineering
 
-The solution is inspired by real-world enterprise migration challenges and showcases the application of AI-assisted engineering productivity techniques.
+## Agent Portfolio
 
----
+### Database Migration Agent
 
-## Key Features
+Automates SQL migration, compatibility analysis, schema conversion, and migration recommendations across database platforms.
 
-✅ Database migration assistance
+### Lambda Generator Agent
 
-✅ SQL compatibility validation
+Generates AWS Lambda functions, event handlers, dispatcher patterns, and associated test cases.
 
-✅ AI-generated migration recommendations
+### Glue Job Agent
 
-✅ Migration effort reduction
+Assists in AWS Glue ETL development, Spark transformations, data validation, and job optimization.
 
-✅ Extensible architecture for multiple migration scenarios
+### DevOps Agent
 
----
+Supports CI/CD pipeline generation, deployment validation, code quality checks, and release readiness assessments.
 
-## Technology Stack
+## Technology Areas
 
-### Backend
+* Generative AI
+* Agentic AI Systems
+* Java
+* Python
+* AWS Lambda
+* AWS Glue
+* Amazon S3
+* DevOps
+* CI/CD
+* Cloud Engineering
+* Data Engineering
+* Prompt Engineering
 
-- Java
-- Spring Boot
+## Repository Structure
 
-### AI Layer
+enterprise-ai-agents/
+├── agents/
+├── prompts/
+├── examples/
+├── docs/
+└── README.md
 
-- Python
-- LLM Integration
+## Roadmap
 
-### Cloud
+Phase 1 – Database Migration Agent
 
-- AWS Lambda
-- AWS ECS
+Phase 2 – Lambda Generator Agent
 
-### Database
+Phase 3 – Glue Job Agent
 
-- PostgreSQL
-- MySQL
+Phase 4 – DevOps Agent
 
----
-
-## High-Level Architecture
-
-```text
-User Input
-     │
-     ▼
-Migration Analyzer
-     │
-     ▼
-AI Recommendation Engine
-     │
-     ▼
-Compatibility Validator
-     │
-     ▼
-Migration Report Generator
-```
-
----
-
-## Use Cases
-
-### Database Migration
-
-Input:
-
-```sql
-SELECT IFNULL(name,'NA')
-FROM customer;
-```
-
-Output:
-
-```sql
-SELECT COALESCE(name,'NA')
-FROM customer;
-```
-
-### Compatibility Analysis
-
-- Identify unsupported syntax
-- Suggest replacements
-- Generate migration guidance
-
----
-
-## Future Enhancements
-
-- Web Interface
-- Multi-Database Support
-- Automated Test Generation
-- Agentic Workflow Integration
-- Cloud Deployment
-
----
-
-## Status
-
-🚧 In Progress
-
-This repository is actively being developed as part of my cloud engineering, data engineering, and Generative AI learning journey.
-
----
+Phase 5 – Agent Orchestration Layer
 
 ## Author
 
 Debojyoti Saha
 
-Cloud Engineering | Data Engineering | Generative AI
+Associate Software Engineer | Cloud Engineering | Data Engineering | Generative AI
