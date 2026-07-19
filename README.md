@@ -1,108 +1,128 @@
 # 🚀 Enterprise AI Agents
 
-> A collection of AI-powered engineering agents designed to automate software development, cloud engineering, database modernization, DevOps workflows, and enterprise engineering productivity.
+> A portfolio of AI-powered engineering agents designed to automate enterprise software development, cloud engineering, database modernization, DevOps workflows, and engineering productivity.
 
-## 📖 Overview
+---
 
-Enterprise AI Agents is an open-source portfolio project inspired by modern enterprise software engineering practices and Agentic AI systems.
+# 📖 Overview
 
-The objective of this repository is to demonstrate how Large Language Models (LLMs), Agentic AI, and workflow orchestration can be leveraged to automate repetitive engineering activities across the Software Development Life Cycle (SDLC).
+Enterprise AI Agents is an open-source portfolio project inspired by real-world enterprise software engineering challenges and modern Agentic AI systems.
 
-This repository contains reusable AI agent specifications, prompts, workflows, examples, and documentation that can be adapted for AI assistants such as ChatGPT, Gemini, Claude, Cursor, Copilot, and other LLM-based development tools.
+The objective of this repository is to demonstrate how Large Language Models (LLMs), Agentic AI, and intelligent workflow orchestration can automate repetitive engineering activities across the Software Development Life Cycle (SDLC).
+
+This repository contains AI agent specifications, prompt frameworks, workflows, reference implementations, examples, and documentation that showcase practical approaches to Enterprise AI Engineering while avoiding proprietary code or confidential business logic.
 
 ---
 
 # 🎯 Vision
 
-Build a modular ecosystem of AI Engineering Agents capable of assisting developers throughout the complete software development lifecycle—from understanding requirements to deployment validation.
+Build a modular ecosystem of Enterprise AI Agents capable of assisting software engineers throughout the complete software development lifecycle—from requirement understanding to deployment validation and engineering productivity.
 
 ---
 
 # ✨ Key Capabilities
 
-- AI-assisted Database Modernization
-- Database Code Generation
+- AI-powered SDLC Automation
+- Database Modernization
 - SQL Migration & Compatibility Analysis
-- AWS Lambda Development
-- AWS Glue ETL Development
-- Cloud Application Modernization
-- Repository Intelligence & Code Understanding
+- Database Operations Code Generation
+- Repository Analysis & Code Understanding
+- Repository Quality Resolution
+- Enterprise Access Workflow Automation
 - DevOps Workflow Automation
 - CI/CD Pipeline Assistance
 - Deployment Validation
 - Engineering Productivity Automation
-- Prompt Engineering & Agent Design
+- Prompt Engineering & AI Agent Design
 
 ---
 
 # 🤖 Agent Portfolio
 
-## 🗄️ Database Migration Agent
+## 🗄️ AI Database Modernization Agent
 
-Automates:
+An AI-powered engineering agent designed to automate database modernization activities including SQL migration, compatibility analysis, database operations code generation, and migration planning across multiple technology combinations.
+
+### Key Capabilities
 
 - SQL Migration
-- Schema Conversion
-- Stored Procedure Migration
-- Compatibility Analysis
-- Database Operations Code Generation
-- Migration Reports
-- Performance Recommendations
+- Database Compatibility Analysis
+- Operations Code Generation
+- Schema Modernization Assistance
+- Migration Planning
+- Technology Compatibility Recommendations
 
 ---
 
-## ☁️ Lambda Engineering Agent
+## 🔧 AI Repository Quality Resolution Agent
 
-Supports:
+An AI-powered engineering agent that automates repository quality analysis, repository context understanding, issue remediation, feature branch creation, and build validation workflows.
 
-- AWS Lambda Development
-- Event Handler Generation
-- Dispatcher Pattern Implementation
-- Unit Test Generation
-- Best Practice Validation
+### Key Capabilities
 
----
-
-## 🔄 AWS Glue Engineering Agent
-
-Capabilities include:
-
-- ETL Job Generation
-- Spark Transformations
-- Data Validation
-- Performance Optimization
-- Glue Script Modernization
-
----
-
-## ⚙️ DevOps Engineering Agent
-
-Automates:
-
-- CI/CD Pipeline Assistance
+- Repository Analysis
+- Repository Context Understanding
+- Automated Issue Resolution
+- Feature Branch Creation
 - Build Validation
-- Deployment Readiness
-- Release Verification
-- Engineering Quality Checks
+- Engineering Quality Automation
+
+---
+
+## 🔐 AI Access Automation Agent
+
+An AI-powered browser automation agent that streamlines standardized onboarding and enterprise access request workflows through intelligent workflow automation.
+
+### Key Capabilities
+
+- Browser Automation
+- Workflow Automation
+- Enterprise Access Requests
+- Form Replication
+- Standardized Onboarding Support
+
+---
+
+## 🚀 Enterprise Multi-Agent Orchestration Platform
+
+A modular orchestration platform comprising multiple specialized AI agents that collaborate to automate software engineering workflows and improve developer productivity across the Software Development Life Cycle.
+
+### Functional Areas
+
+- Requirement Understanding
+- Repository Intelligence
+- Design Mapping
+- Test-Driven Development Assistance
+- Enterprise Code Generation
+- Cross-Repository Search
+- DevOps Automation
+- Pull Request Assistance
+- Jenkins Monitoring
+- Spinnaker Monitoring
+- Deployment Validation
+- TestSight Analytics
+- Engineering Q&A
+- Feedback-Driven Improvement
 
 ---
 
 # 🛠️ Technology Stack
 
-### Languages
+## Languages
 
 - Java
 - Python
 - SQL
 
-### Cloud
+## Cloud Engineering
 
 - AWS Lambda
 - AWS Glue
-- Amazon S3
 - Amazon ECS
+- Amazon S3
+- Serverless Computing
 
-### DevOps
+## DevOps
 
 - Jenkins
 - Spinnaker
@@ -110,15 +130,22 @@ Automates:
 - Bitbucket
 - CI/CD
 
-### AI
+## Automation
+
+- Playwright
+- Browser Automation
+
+## AI & Engineering
 
 - Generative AI
 - Agentic AI
-- Prompt Engineering
-- AI Engineering
+- Enterprise AI Engineering
 - Enterprise AI Agents
+- Prompt Engineering
+- AI Workflow Automation
+- Multi-Agent Systems
 
-### Data Engineering
+## Data Engineering
 
 - ETL
 - Data Pipelines
@@ -133,16 +160,18 @@ Automates:
 enterprise-ai-agents/
 │
 ├── agents/
-│   ├── db-migration-agent.md
-│   ├── lambda-engineering-agent.md
-│   ├── glue-engineering-agent.md
-│   └── devops-engineering-agent.md
+│   ├── ai-database-modernization-agent/
+│   ├── ai-repository-quality-resolution-agent/
+│   ├── ai-access-automation-agent/
+│   └── enterprise-multi-agent-orchestration/
 │
 ├── prompts/
 │
 ├── examples/
 │
 ├── docs/
+│
+├── assets/
 │
 └── README.md
 ```
@@ -153,69 +182,86 @@ enterprise-ai-agents/
 
 ## Phase 1
 
-✅ Database Migration Agent
+✅ AI Database Modernization Agent
 
 ---
 
 ## Phase 2
 
-🔄 Lambda Engineering Agent
+✅ AI Repository Quality Resolution Agent
 
 ---
 
 ## Phase 3
 
-🔄 AWS Glue Engineering Agent
+✅ AI Access Automation Agent
 
 ---
 
 ## Phase 4
 
-🔄 DevOps Engineering Agent
+🚧 Enterprise Multi-Agent Orchestration Platform
 
----
-
-## Phase 5
-
-🔄 Enterprise Agent Orchestration
-
-- Agent Collaboration
+- Enhanced Agent Collaboration
 - Shared Memory
 - Workflow Chaining
 - Multi-Agent Coordination
+- Engineering Intelligence
 
 ---
 
 # 🎯 Repository Goals
 
-- Showcase practical applications of Generative AI in Software Engineering.
-- Demonstrate Enterprise AI Agent design patterns.
-- Build reusable AI Engineering workflows.
-- Explore Agentic AI for developer productivity.
-- Promote cloud-native engineering automation.
+- Demonstrate Enterprise AI Engineering concepts.
+- Showcase practical AI-powered engineering automation.
+- Build reusable AI engineering workflows.
+- Explore Agentic AI and Multi-Agent collaboration.
+- Promote cloud-native software engineering automation.
+- Share portfolio-ready AI agent designs and implementations.
 
 ---
 
 # ⚠️ Disclaimer
 
-This repository is an independent educational and portfolio project inspired by enterprise engineering challenges.
+This repository is an independent educational and portfolio project inspired by enterprise software engineering challenges.
 
-It does **not** contain proprietary source code, confidential business logic, internal documentation, or client-specific implementations.
+It does **not** contain proprietary source code, confidential business logic, internal documentation, client-specific implementations, or intellectual property belonging to any employer or client.
+
+All implementations, prompts, workflows, and documentation are created solely for learning, experimentation, and portfolio purposes.
 
 ---
 
 # 👨‍💻 Author
 
-**Debojyoti Saha**
+## Debojyoti Saha
 
-Associate Software Engineer
+**Associate Software Engineer | Enterprise AI Engineer**
 
-**Interests**
+### Interests
 
 - Enterprise AI Engineering
 - Cloud Engineering
 - Software Engineering
-- Data Engineering
-- DevOps
+- Platform Engineering
+- DevOps Engineering
 - Agentic AI
+- Multi-Agent Systems
 - Generative AI
+
+---
+
+# 🌟 Future Enhancements
+
+- Intelligent Memory & Context Management
+- Autonomous Engineering Workflows
+- AI-assisted Code Reviews
+- AI-driven Deployment Analysis
+- Cloud Architecture Assistants
+- Enterprise Knowledge Retrieval
+- Multi-Agent Collaboration Frameworks
+
+---
+
+## ⭐ If you find this repository useful, consider giving it a star!
+
+Thank you for visiting my Enterprise AI Engineering portfolio.
