@@ -1,74 +1,221 @@
-# Enterprise AI Agents
+# 🚀 Enterprise AI Agents
 
-Enterprise AI Agents is a collection of AI-powered engineering agents designed to accelerate software development, cloud modernization, database migration, and DevOps workflows.
+> A collection of AI-powered engineering agents designed to automate software development, cloud engineering, database modernization, DevOps workflows, and enterprise engineering productivity.
 
-Inspired by real-world enterprise engineering challenges, this repository demonstrates how Generative AI and Agentic AI systems can be leveraged to automate repetitive development tasks, improve engineering productivity, and support cloud-native application modernization initiatives.
+## 📖 Overview
 
-## Key Objectives
+Enterprise AI Agents is an open-source portfolio project inspired by modern enterprise software engineering practices and Agentic AI systems.
 
-* Automate database migration and modernization activities
-* Generate and validate cloud-native application components
-* Accelerate AWS Lambda and serverless development workflows
-* Assist in ETL and data engineering tasks
-* Support DevOps automation and deployment validation
-* Demonstrate practical applications of Generative AI in software engineering
+The objective of this repository is to demonstrate how Large Language Models (LLMs), Agentic AI, and workflow orchestration can be leveraged to automate repetitive engineering activities across the Software Development Life Cycle (SDLC).
 
-## Agent Portfolio
+This repository contains reusable AI agent specifications, prompts, workflows, examples, and documentation that can be adapted for AI assistants such as ChatGPT, Gemini, Claude, Cursor, Copilot, and other LLM-based development tools.
 
-### Database Migration Agent
+---
 
-Automates SQL migration, compatibility analysis, schema conversion, and migration recommendations across database platforms.
+# 🎯 Vision
 
-### Lambda Generator Agent
+Build a modular ecosystem of AI Engineering Agents capable of assisting developers throughout the complete software development lifecycle—from understanding requirements to deployment validation.
 
-Generates AWS Lambda functions, event handlers, dispatcher patterns, and associated test cases.
+---
 
-### Glue Job Agent
+# ✨ Key Capabilities
 
-Assists in AWS Glue ETL development, Spark transformations, data validation, and job optimization.
+- AI-assisted Database Modernization
+- Database Code Generation
+- SQL Migration & Compatibility Analysis
+- AWS Lambda Development
+- AWS Glue ETL Development
+- Cloud Application Modernization
+- Repository Intelligence & Code Understanding
+- DevOps Workflow Automation
+- CI/CD Pipeline Assistance
+- Deployment Validation
+- Engineering Productivity Automation
+- Prompt Engineering & Agent Design
 
-### DevOps Agent
+---
 
-Supports CI/CD pipeline generation, deployment validation, code quality checks, and release readiness assessments.
+# 🤖 Agent Portfolio
 
-## Technology Areas
+## 🗄️ Database Migration Agent
 
-* Generative AI
-* Agentic AI Systems
-* Java
-* Python
-* AWS Lambda
-* AWS Glue
-* Amazon S3
-* DevOps
-* CI/CD
-* Cloud Engineering
-* Data Engineering
-* Prompt Engineering
+Automates:
 
-## Repository Structure
+- SQL Migration
+- Schema Conversion
+- Stored Procedure Migration
+- Compatibility Analysis
+- Database Operations Code Generation
+- Migration Reports
+- Performance Recommendations
 
+---
+
+## ☁️ Lambda Engineering Agent
+
+Supports:
+
+- AWS Lambda Development
+- Event Handler Generation
+- Dispatcher Pattern Implementation
+- Unit Test Generation
+- Best Practice Validation
+
+---
+
+## 🔄 AWS Glue Engineering Agent
+
+Capabilities include:
+
+- ETL Job Generation
+- Spark Transformations
+- Data Validation
+- Performance Optimization
+- Glue Script Modernization
+
+---
+
+## ⚙️ DevOps Engineering Agent
+
+Automates:
+
+- CI/CD Pipeline Assistance
+- Build Validation
+- Deployment Readiness
+- Release Verification
+- Engineering Quality Checks
+
+---
+
+# 🛠️ Technology Stack
+
+### Languages
+
+- Java
+- Python
+- SQL
+
+### Cloud
+
+- AWS Lambda
+- AWS Glue
+- Amazon S3
+- Amazon ECS
+
+### DevOps
+
+- Jenkins
+- Spinnaker
+- Git
+- Bitbucket
+- CI/CD
+
+### AI
+
+- Generative AI
+- Agentic AI
+- Prompt Engineering
+- AI Engineering
+- Enterprise AI Agents
+
+### Data Engineering
+
+- ETL
+- Data Pipelines
+- Database Modernization
+- SQL Migration
+
+---
+
+# 📂 Repository Structure
+
+```text
 enterprise-ai-agents/
+│
 ├── agents/
+│   ├── db-migration-agent.md
+│   ├── lambda-engineering-agent.md
+│   ├── glue-engineering-agent.md
+│   └── devops-engineering-agent.md
+│
 ├── prompts/
+│
 ├── examples/
+│
 ├── docs/
+│
 └── README.md
+```
 
-## Roadmap
+---
 
-Phase 1 – Database Migration Agent
+# 🗺️ Roadmap
 
-Phase 2 – Lambda Generator Agent
+## Phase 1
 
-Phase 3 – Glue Job Agent
+✅ Database Migration Agent
 
-Phase 4 – DevOps Agent
+---
 
-Phase 5 – Agent Orchestration Layer
+## Phase 2
 
-## Author
+🔄 Lambda Engineering Agent
 
-Debojyoti Saha
+---
 
-Associate Software Engineer | Cloud Engineering | Data Engineering | Generative AI
+## Phase 3
+
+🔄 AWS Glue Engineering Agent
+
+---
+
+## Phase 4
+
+🔄 DevOps Engineering Agent
+
+---
+
+## Phase 5
+
+🔄 Enterprise Agent Orchestration
+
+- Agent Collaboration
+- Shared Memory
+- Workflow Chaining
+- Multi-Agent Coordination
+
+---
+
+# 🎯 Repository Goals
+
+- Showcase practical applications of Generative AI in Software Engineering.
+- Demonstrate Enterprise AI Agent design patterns.
+- Build reusable AI Engineering workflows.
+- Explore Agentic AI for developer productivity.
+- Promote cloud-native engineering automation.
+
+---
+
+# ⚠️ Disclaimer
+
+This repository is an independent educational and portfolio project inspired by enterprise engineering challenges.
+
+It does **not** contain proprietary source code, confidential business logic, internal documentation, or client-specific implementations.
+
+---
+
+# 👨‍💻 Author
+
+**Debojyoti Saha**
+
+Associate Software Engineer
+
+**Interests**
+
+- Enterprise AI Engineering
+- Cloud Engineering
+- Software Engineering
+- Data Engineering
+- DevOps
+- Agentic AI
+- Generative AI
