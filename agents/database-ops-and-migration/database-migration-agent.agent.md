@@ -1,4 +1,4 @@
-﻿---
+---
 name: database-migration-agent
 description: Database migration specialist for Lambda, Glue, Java/Spring Boot, and infrastructure changes across Oracle, PostgreSQL, MySQL, SQL Server, Redshift, and DynamoDB.
 ---
